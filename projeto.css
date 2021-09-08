@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(1, 2, 20)!important;    
+}
+#demo{
+    width:75vw;
+    margin: 1% 13% auto 13%;
+    
+}
+
+.carousel-inner{
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    display: flex;  
+}
+
+.Img-fluid{
+    margin: auto;
+    display: block;
+    height: 100%;
+    width: 80%;
+    object-fit: cover;
+}
+
+.jumbotron{
+    background-color: rgb(1, 2, 20);
+}
+
+.maisdetalhe{
+    float: right;
+    margin: 1%;
+    color: black;
+}
+
+.pcrecom{
+    margin: 30px;
+    border-radius: 7px;
+    margin: 10px 30% auto 30%;    
+}
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+.Barra_De_Busca{
+    position: relative;
+    max-width: 600px;
+    
+    
+}
+.Barra_De_Busca,
+.Barra_De_Busca_input{
+    font-family: sans-serif;
+}
+.Barra_De_Busca,
+.Barra_De_Busca * {
+  transition: background 0.15s, box-shadow 0.15s;
+}
+.Barra_De_Busca:focus-within {
+    box-shadow: 0 0 3px rgba(121, 121, 121, 0.2);
+}
+.Barra_De_Busca,
+.Barra_De_Busca_input-container {
+  border-radius: 5px;
+}
+.Barra_De_Busca_input-container{
+    display: inline-flex;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 6px;
+    background: white;
+}
+.Barra_De_Busca_input-container:focus-within {
+    border: solid 3px rgb(1, 2, 20);
+    border-radius: 5px;
+}
+.Barra_De_Busca_input {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    padding: 0 6px;
+    background: transparent;
+}
+.navbar_infos-container{
+    margin-top:56px;
+    width: 100%;
+}

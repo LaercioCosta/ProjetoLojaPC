@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>TNT</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="projeto.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body >
+    
+  <nav class="navbar navbar-expand navbar-dark">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="index.html">TNT</a>
+          <ul class="nav navbar-nav">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle fas fa-home" href="#" id="navbardrop" data-toggle="dropdown">
+                Menu
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="pcgamer.html">Pc gamer</a>
+                <a class="dropdown-item" href="contatos.html">Contatos</a>
+                <a class="dropdown-item" href="sobre.html">Sobre</a>
+              </div>    
+          </ul>
+     </div>
+     <Ul class="nav navbar-nav navbar-right ">
+      <li><a class="nav-link " href="acesso.html"><i class="fas fa-user-alt"></i> Acesso Admistrativo </a></li>
+    </Ul>
+    </div>  
+  </nav>
+    
+</div>
+    <div class="pcrecom text-center" >
+      <h1 class="text-white ">Acesso Administrativo</h1>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      
+      <h3 style="text-align: center;" class="text-white" ></h3>
+      <img src="img/tnt.png" style="height: 80%; width: 60%;" class="displayed">
+      <a href="#" class="TNT">
+      </a>
+    </div>
+    <div class="col-sm-12">
+      <form action="control/ctr-funcionario.php" method="POST">
+        <input type="hidden" name="validar">
+        <div class="form-group" style="color: white;">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" placeholder="Coloque seu Email" name="email">
+        </div>
+        <div class="form-group" style="color: white;">
+          <label for="pwd">Senha:</label>
+          <input type="password" class="form-control" placeholder="Coloque sua senha" name="pwd">
+        </div>
+        <div class="form-group form-check" style="color: white;">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox"> Lembre de mim
+          </label>
+        </div>
+        <button type="submit" class="btn btn-primary">Entrar</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
